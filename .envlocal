@@ -1,0 +1,3 @@
+# Frontend environment variables
+VITE_SUPABASE_URL=https://your-project-ref.supabase.co
+VITE_SUPABASE_ANON_KEY=sb_publishable_dqbLyHt1HjnjRE-ulpOgZg_JHi1H40I

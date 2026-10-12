@@ -1,0 +1,8 @@
+# Project rules (RescueBite)
+- Stack: React + Vite + TypeScript + Tailwind + shadcn/ui + React Router + Recharts + dnd-kit + zod + @supabase/supabase-js. No other backend.
+- UI language is Vietnamese. Code, comments, table and column names are English.
+- Never commit or expose .env files or the Supabase service_role key. The browser bundle may only use the anon key.
+- All data changes go through Postgres functions (RPC) with Row Level Security enabled on every table.
+- Fake data only. Educational, non-commercial. No real brand assets, no real personal data.
+- Work in phases. After each phase: run `npm run build`, verify in the browser agent, write a Walkthrough artifact with screenshots, report what works and what does not, then STOP and wait for "continue".
+- If a step needs something only the user can do (create keys, run SQL in the Supabase dashboard), stop and give exact numbered instructions instead of guessing.
